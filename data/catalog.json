@@ -1,0 +1,552 @@
+[
+  {
+    "code": "server_1c2g",
+    "name": "云主机-1核2G",
+    "category": "推荐服务",
+    "specs": "1核CPU，2GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 69,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "1C2G", "1核2G", "小型主机"]
+  },
+  {
+    "code": "server_2c4g",
+    "name": "云主机-2核4G",
+    "category": "推荐服务",
+    "specs": "2核CPU，4GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 138,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "2C4G", "2核4G"]
+  },
+  {
+    "code": "server_2c8g",
+    "name": "云主机-2核8G",
+    "category": "推荐服务",
+    "specs": "2核CPU，8GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 216,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "2C8G", "2核8G"]
+  },
+  {
+    "code": "server_4c8g",
+    "name": "云主机-4核8G",
+    "category": "推荐服务",
+    "specs": "4核CPU，8GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 276,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "4C8G", "4核8G", "中型主机"]
+  },
+  {
+    "code": "server_4c16g",
+    "name": "云主机-4核16G",
+    "category": "推荐服务",
+    "specs": "4核CPU，16GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 432,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "4C16G", "4核16G"]
+  },
+  {
+    "code": "server_8c16g",
+    "name": "云主机-8核16G",
+    "category": "推荐服务",
+    "specs": "8核CPU，16GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 552,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "8C16G", "8核16G"]
+  },
+  {
+    "code": "server_8c32g",
+    "name": "云主机-8核32G",
+    "category": "推荐服务",
+    "specs": "8核CPU，32GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 864,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "8C32G", "8核32G"]
+  },
+  {
+    "code": "server_16c32g",
+    "name": "云主机-16核32G",
+    "category": "推荐服务",
+    "specs": "16核CPU，32GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 1104,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "16C32G", "16核32G", "大型主机"]
+  },
+  {
+    "code": "server_16c64g",
+    "name": "云主机-16核64G",
+    "category": "推荐服务",
+    "specs": "16核CPU，64GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 1728,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "16C64G", "16核64G"]
+  },
+  {
+    "code": "server_32c64g",
+    "name": "云主机-32核64G",
+    "category": "推荐服务",
+    "specs": "32核CPU，64GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 2208,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "32C64G", "32核64G"]
+  },
+  {
+    "code": "server_32c128g",
+    "name": "云主机-32核128G",
+    "category": "推荐服务",
+    "specs": "32核CPU，128GB内存，按月计费",
+    "unit": "台",
+    "unitPrice": 3456,
+    "discountable": true,
+    "aliases": ["虚拟机", "ECS", "云服务器", "云主机", "32C128G", "32核128G", "超大型主机"]
+  },
+  {
+    "code": "host_security",
+    "name": "主机安全服务",
+    "category": "安全服务",
+    "specs": "1套=1个云主机，提升主机整体安全性",
+    "unit": "套",
+    "unitPrice": 112.5,
+    "discountable": true,
+    "aliases": ["主机安全", "HSS", "服务器安全", "入侵检测", "主机防护", "安全加固"]
+  },
+  {
+    "code": "log_audit",
+    "name": "综合日志审计服务",
+    "category": "安全服务",
+    "specs": "1套=1个日志源主机，日志存储量3T",
+    "unit": "套",
+    "unitPrice": 119,
+    "discountable": true,
+    "aliases": ["日志审计", "日志服务", "审计日志", "SIEM", "日志管理", "安全日志", "综合日志"]
+  },
+  {
+    "code": "bastion",
+    "name": "云堡垒机服务",
+    "category": "安全服务",
+    "specs": "1套=10个资产，统一账户管理和权限控制",
+    "unit": "套",
+    "unitPrice": 793,
+    "discountable": true,
+    "aliases": ["堡垒机", "跳板机", "运维审计", "特权账号管理", "PAM", "云堡垒机"]
+  },
+  {
+    "code": "waf",
+    "name": "Web应用防火墙服务-100Mbps",
+    "category": "安全服务",
+    "specs": "HTTP流量≤100Mbps，SQL注入、XSS等攻击防护",
+    "unit": "套",
+    "unitPrice": 3450,
+    "discountable": true,
+    "aliases": ["WAF", "Web防火墙", "应用防火墙", "网站防护", "网页防护", "web应用防火墙"]
+  },
+  {
+    "code": "cloud_firewall",
+    "name": "云防火墙-1GB吞吐量",
+    "category": "安全服务",
+    "specs": "边界防火墙，入侵检测防御，1GB吞吐量",
+    "unit": "套",
+    "unitPrice": 2800,
+    "discountable": true,
+    "aliases": ["防火墙", "云防火墙", "边界防护", "IPS", "IDS", "入侵检测", "入侵防御"]
+  },
+  {
+    "code": "vul_scan",
+    "name": "漏洞扫描服务-1IP数量",
+    "category": "安全服务",
+    "specs": "多维度安全检测，1IP数量",
+    "unit": "套",
+    "unitPrice": 650,
+    "discountable": true,
+    "aliases": ["漏洞扫描", "安全扫描", "渗透测试", "脆弱性扫描", "漏洞检测", "安全评估"]
+  },
+  {
+    "code": "db_audit",
+    "name": "数据库审计服务",
+    "category": "安全服务",
+    "specs": "1套=1个数据库实例",
+    "unit": "套",
+    "unitPrice": 1275,
+    "discountable": true,
+    "aliases": ["数据库审计", "DB审计", "数据库安全", "数据审计", "SQL审计"]
+  },
+  {
+    "code": "web_tamper",
+    "name": "网页防篡改服务",
+    "category": "安全服务",
+    "specs": "1套=1个主机，防止网页被非法修改",
+    "unit": "套",
+    "unitPrice": 1050,
+    "discountable": true,
+    "aliases": ["防篡改", "网页防篡改", "页面保护", "内容防篡改"]
+  },
+  {
+    "code": "ddos",
+    "name": "DDoS流量清洗",
+    "category": "安全服务",
+    "specs": "DDoS攻击防护，10M为计费单位",
+    "unit": "10M",
+    "unitPrice": 350,
+    "discountable": true,
+    "aliases": ["DDoS防护", "流量清洗", "抗DDoS", "防DDoS", "流量攻击防护"]
+  },
+  {
+    "code": "web_monitor",
+    "name": "互联网应用云安全监测",
+    "category": "安全服务",
+    "specs": "24小时安全监测，1个系统",
+    "unit": "个系统",
+    "unitPrice": 500,
+    "discountable": true,
+    "aliases": ["安全监测", "云安全监测", "互联网监测", "网络监测", "安全态势感知"]
+  },
+  {
+    "code": "bandwidth_lt5",
+    "name": "互联网带宽(＜5M)",
+    "category": "网络服务",
+    "specs": "自动分段计费，不参与折扣，小于5M按¥13.6/M/月",
+    "unit": "M",
+    "unitPrice": 13.6,
+    "discountable": false,
+    "aliases": ["带宽", "公网带宽", "互联网带宽", "出口带宽", "网络带宽"]
+  },
+  {
+    "code": "bandwidth_5to10",
+    "name": "互联网带宽(5M-10M)",
+    "category": "网络服务",
+    "specs": "自动分段计费，不参与折扣，5M-10M按¥17/M/月",
+    "unit": "M",
+    "unitPrice": 17,
+    "discountable": false,
+    "aliases": ["带宽", "公网带宽", "互联网带宽", "出口带宽", "中等带宽"]
+  },
+  {
+    "code": "bandwidth_gt10",
+    "name": "互联网带宽(≥10M)",
+    "category": "网络服务",
+    "specs": "自动分段计费，不参与折扣，10M及以上按¥25.5/M/月",
+    "unit": "M",
+    "unitPrice": 25.5,
+    "discountable": false,
+    "aliases": ["带宽", "公网带宽", "互联网带宽", "出口带宽", "大带宽"]
+  },
+  {
+    "code": "public_ip",
+    "name": "公网IP",
+    "category": "网络服务",
+    "specs": "不参与折扣，按月计费",
+    "unit": "个",
+    "unitPrice": 40,
+    "discountable": false,
+    "aliases": ["公网IP", "弹性IP", "EIP", "固定IP", "外网IP", "独立IP"]
+  },
+  {
+    "code": "nat",
+    "name": "NAT网关(小型)",
+    "category": "网关服务",
+    "specs": "网络地址转换服务，小型规格",
+    "unit": "套",
+    "unitPrice": 267.6,
+    "discountable": true,
+    "aliases": ["NAT网关", "NAT", "网关", "地址转换", "网络地址转换"]
+  },
+  {
+    "code": "vpn",
+    "name": "VPN网关",
+    "category": "网关服务",
+    "specs": "零信任防火墙，按并发连接数计费",
+    "unit": "并发",
+    "unitPrice": 40,
+    "discountable": true,
+    "aliases": ["VPN", "虚拟专网", "SSL VPN", "IPSec VPN", "远程访问VPN", "零信任"]
+  },
+  {
+    "code": "container",
+    "name": "云原生基础容器引擎",
+    "category": "容器服务",
+    "specs": "提供容器编排、调度、部署等能力，50节点",
+    "unit": "50节点",
+    "unitPrice": 546,
+    "discountable": true,
+    "aliases": ["容器", "K8s", "Kubernetes", "容器编排", "容器引擎", "容器集群", "云原生"]
+  },
+  {
+    "code": "storage_sas",
+    "name": "分布式块存储-高IO-SAS",
+    "category": "存储服务",
+    "specs": "SAS级块存储，纠删码校验，按GB/月计费",
+    "unit": "GB",
+    "unitPrice": 0.3,
+    "discountable": true,
+    "aliases": ["块存储", "SAS存储", "高IO存储", "云硬盘", "磁盘", "HDD", "SAS盘"]
+  },
+  {
+    "code": "storage_ssd",
+    "name": "分布式块存储-超高IO-SSD",
+    "category": "存储服务",
+    "specs": "SSD级块存储，纠错码校验，按GB/月计费",
+    "unit": "GB",
+    "unitPrice": 1.2,
+    "discountable": true,
+    "aliases": ["SSD存储", "超高IO存储", "固态硬盘", "SSD云硬盘", "SSD盘", "高性能存储"]
+  },
+  {
+    "code": "storage_obs",
+    "name": "OBS对象存储",
+    "category": "存储服务",
+    "specs": "海量对象存储服务，按GB/月计费",
+    "unit": "GB",
+    "unitPrice": 0.09,
+    "discountable": true,
+    "aliases": ["对象存储", "OBS", "S3", "文件存储", "海量存储", "OSS", "COS"]
+  },
+  {
+    "code": "snapshot",
+    "name": "云硬盘快照",
+    "category": "备份服务",
+    "specs": "基于快照创建新云硬盘，按GB/月计费",
+    "unit": "GB",
+    "unitPrice": 0.32,
+    "discountable": true,
+    "aliases": ["快照", "硬盘快照", "磁盘快照", "备份快照", "云盘快照"]
+  },
+  {
+    "code": "backup",
+    "name": "备份服务",
+    "category": "备份服务",
+    "specs": "数据库、文件、应用备份，按GB/月计费",
+    "unit": "GB",
+    "unitPrice": 0.32,
+    "discountable": true,
+    "aliases": ["备份", "数据备份", "云备份", "CBR", "文件备份", "应用备份"]
+  },
+  {
+    "code": "redis_master",
+    "name": "分布式缓存服务(Redis)-主备版",
+    "category": "缓存服务",
+    "specs": "主备节点实时复制（固定2节点），单价¥75/GB/月×2节点=¥150/GB/月",
+    "unit": "GB",
+    "unitPrice": 150,
+    "discountable": true,
+    "aliases": ["Redis主备", "Redis主备版", "缓存主备", "主备Redis", "Redis高可用"]
+  },
+  {
+    "code": "redis_cluster",
+    "name": "分布式缓存服务(Redis)-集群版",
+    "category": "缓存服务",
+    "specs": "条带化分区（3的倍数节点，默认3节点），单价¥127.5/GB/月×节点数",
+    "unit": "GB",
+    "unitPrice": 382.5,
+    "discountable": true,
+    "aliases": ["Redis集群", "Redis集群版", "缓存集群", "集群Redis", "Redis分片"]
+  },
+  {
+    "code": "db_enterprise",
+    "name": "企业级分布式关系型数据库-4核16G",
+    "category": "数据库服务",
+    "specs": "国产化主流数据库，4核16G规格",
+    "unit": "套",
+    "unitPrice": 6000,
+    "discountable": true,
+    "aliases": ["企业数据库", "关系数据库", "分布式数据库", "国产数据库", "RDS", "数据库"]
+  },
+  {
+    "code": "db_newsql_std",
+    "name": "自研分布式NewSQL数据库-标准版",
+    "category": "数据库服务",
+    "specs": "标准版，读写分离",
+    "unit": "套",
+    "unitPrice": 3500,
+    "discountable": true,
+    "aliases": ["NewSQL标准版", "NewSQL数据库", "分布式NewSQL", "TiDB", "NewSQL"]
+  },
+  {
+    "code": "db_newsql_perf",
+    "name": "自研分布式NewSQL数据库-高性能版",
+    "category": "数据库服务",
+    "specs": "高性能版，独立三节点",
+    "unit": "套",
+    "unitPrice": 6000,
+    "discountable": true,
+    "aliases": ["NewSQL高性能版", "高性能NewSQL", "NewSQL三节点", "高性能数据库"]
+  },
+  {
+    "code": "bigdata_flume",
+    "name": "大数据基础服务-Flume",
+    "category": "大数据服务",
+    "specs": "日志采集、聚合和传输",
+    "unit": "次",
+    "unitPrice": 2381,
+    "discountable": true,
+    "aliases": ["Flume", "日志采集", "数据采集", "日志传输", "Flume服务"]
+  },
+  {
+    "code": "bigdata_redis",
+    "name": "大数据基础服务-Redis",
+    "category": "大数据服务",
+    "specs": "每6个实例",
+    "unit": "套",
+    "unitPrice": 4762,
+    "discountable": true,
+    "aliases": ["大数据Redis", "Redis服务", "大数据缓存"]
+  },
+  {
+    "code": "bigdata_suite",
+    "name": "大数据基础服务-Hive+Spark套件",
+    "category": "大数据服务",
+    "specs": "Hive+Spark+Hetu+Flink+Mapreduce+TEZ，每24vCPU",
+    "unit": "套",
+    "unitPrice": 5952,
+    "discountable": true,
+    "aliases": ["大数据套件", "Hive", "Spark", "Flink", "大数据分析", "Hadoop", "MRS"]
+  },
+  {
+    "code": "bigdata_kafka",
+    "name": "大数据基础服务-Kafka",
+    "category": "大数据服务",
+    "specs": "消息发布-订阅系统",
+    "unit": "次",
+    "unitPrice": 2267,
+    "discountable": true,
+    "aliases": ["Kafka", "消息队列", "消息中间件", "MQ", "发布订阅"]
+  },
+  {
+    "code": "dws",
+    "name": "DWS数据仓库服务",
+    "category": "大数据服务",
+    "specs": "数据仓库，每24vCPU",
+    "unit": "套",
+    "unitPrice": 13244,
+    "discountable": true,
+    "aliases": ["数据仓库", "DWS", "数仓", "GaussDB DWS", "大数据仓库", "OLAP"]
+  },
+  {
+    "code": "datagov_api",
+    "name": "数据治理工具服务-每5API数",
+    "category": "数据治理",
+    "specs": "每5个API接口",
+    "unit": "套",
+    "unitPrice": 952,
+    "discountable": true,
+    "aliases": ["数据治理API", "API管理", "接口治理", "数据API"]
+  },
+  {
+    "code": "datagov_task",
+    "name": "数据治理工具服务-每100任务数",
+    "category": "数据治理",
+    "specs": "每100个调度任务",
+    "unit": "套",
+    "unitPrice": 952,
+    "discountable": true,
+    "aliases": ["数据治理任务", "调度任务", "数据任务", "ETL任务"]
+  },
+  {
+    "code": "datagov_asset",
+    "name": "数据治理工具服务-每200资产数",
+    "category": "数据治理",
+    "specs": "每200个数据资产",
+    "unit": "套",
+    "unitPrice": 952,
+    "discountable": true,
+    "aliases": ["数据治理资产", "数据资产", "元数据管理", "数据目录"]
+  },
+  {
+    "code": "video_access",
+    "name": "视频平台接入服务",
+    "category": "视频服务",
+    "specs": "视频平台接入，按路计费",
+    "unit": "路",
+    "unitPrice": 8,
+    "discountable": true,
+    "aliases": ["视频接入", "视频流", "视频平台", "摄像头接入", "IPC接入"]
+  },
+  {
+    "code": "video_ai_high",
+    "name": "AI算法-高阶分析算法服务",
+    "category": "视频服务",
+    "specs": "高级视频智能分析算法",
+    "unit": "路",
+    "unitPrice": 180,
+    "discountable": true,
+    "aliases": ["AI视频分析", "高级算法", "智能分析", "行为分析", "人员识别", "视频AI"]
+  },
+  {
+    "code": "video_ai_basic",
+    "name": "AI算法-基础分析算法服务",
+    "category": "视频服务",
+    "specs": "基础视频智能分析算法",
+    "unit": "路",
+    "unitPrice": 120,
+    "discountable": true,
+    "aliases": ["基础AI算法", "基础视频分析", "视频检测", "运动检测"]
+  },
+  {
+    "code": "saas_identity",
+    "name": "身份识别与访问控制系统",
+    "category": "SaaS服务",
+    "specs": "1套/年，身份认证与权限管理",
+    "unit": "套",
+    "unitPrice": 17000,
+    "discountable": true,
+    "aliases": ["IAM", "身份认证", "访问控制", "SSO", "单点登录", "统一认证", "4A"]
+  },
+  {
+    "code": "saas_portal",
+    "name": "对内门户用户授权",
+    "category": "SaaS服务",
+    "specs": "1个/年，不参与折扣",
+    "unit": "个",
+    "unitPrice": 140,
+    "discountable": false,
+    "aliases": ["门户授权", "用户授权", "内部门户", "企业门户", "员工授权"]
+  },
+  {
+    "code": "saas_clouddisk",
+    "name": "企业云盘",
+    "category": "SaaS服务",
+    "specs": "1用户/年，企业文件共享与协作",
+    "unit": "用户",
+    "unitPrice": 300,
+    "discountable": true,
+    "aliases": ["云盘", "企业网盘", "文件共享", "网络硬盘", "协作空间", "企业存储"]
+  },
+  {
+    "code": "ops_vul",
+    "name": "风险验证与协同处置",
+    "category": "运维服务",
+    "specs": "1套/年，安全风险评估与处置",
+    "unit": "套",
+    "unitPrice": 40000,
+    "discountable": true,
+    "aliases": ["风险处置", "安全评估", "漏洞处置", "安全运维", "风险管理"]
+  },
+  {
+    "code": "ops_drill",
+    "name": "应急演练",
+    "category": "运维服务",
+    "specs": "安全事件应急响应演练，每次",
+    "unit": "次",
+    "unitPrice": 15000,
+    "discountable": true,
+    "aliases": ["应急演练", "应急响应", "安全演练", "灾难演练", "事件演练"]
+  },
+  {
+    "code": "ops_guard",
+    "name": "重保驻场值守",
+    "category": "运维服务",
+    "specs": "24小时驻场7天，重要活动安全保障",
+    "unit": "次",
+    "unitPrice": 12600,
+    "discountable": true,
+    "aliases": ["重保", "驻场值守", "安全驻场", "重要保障", "护网行动", "重大活动保障"]
+  }
+]
