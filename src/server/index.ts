@@ -37,6 +37,9 @@ app.use(
 
 app.use(express.json())
 
+// Health check (used by Electron to detect server readiness)
+app.get('/api/health', (_req, res) => res.json({ ok: true }))
+
 // API routes
 app.use('/api/chat', chatRouter)
 app.use('/api/quote', quoteRouter)

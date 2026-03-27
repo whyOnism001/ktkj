@@ -7,8 +7,28 @@
     "dev:server": "tsx watch src/server/index.ts",
     "dev:client": "vite",
     "build": "tsc -p tsconfig.server.json && vite build",
+    "build:electron": "npm run build && tsc -p tsconfig.electron.json",
     "start": "node dist/server/index.js",
+    "electron:dev": "NODE_ENV=development electron electron/main.js",
+    "electron:build": "npm run build:electron && electron-builder",
     "electron": "electron electron/main.js"
+  },
+  "build": {
+    "appId": "com.kaitou.quoter",
+    "productName": "开投智云AI报价助手",
+    "directories": { "output": "release" },
+    "files": [
+      "electron/**/*",
+      "dist/**/*",
+      "config.json",
+      "!node_modules"
+    ],
+    "extraResources": [
+      { "from": "data/", "to": "data/" }
+    ],
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg" },
+    "linux": { "target": "AppImage" }
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",
@@ -27,6 +47,7 @@
     "@types/uuid": "^9.0.8",
     "concurrently": "^8.2.2",
     "electron": "^29.0.0",
+    "electron-builder": "^24.13.3",
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
     "vite": "^5.0.0"
